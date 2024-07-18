@@ -1,0 +1,30 @@
+app1 : println, print, literals
+app2 : local variables
+app3 : unary operators
+app4 : boolean operators, logical operators
+app5 : binary representation , bitwise operator
+app6 : command line arguments
+app7 : if block
+app8 : nested if block
+app9 : if blocks with unary operators
+app10 : else block
+app11 : if-else block inside if block
+app12 : if-else block inside else block
+app13 : ternary operator
+app14 : switch cases
+app15 : for loop
+app16 : break continue
+app17 : while loop
+app18 : class methods
+app19 : static attributes
+app20 : static initializers
+app21 : illegal forward reference (IFR)
+app22 : multiple classes
+app23 : object and reference variable
+app24 : constructors
+app25 : constructor overloading
+app26 : IIB(Instance Initialization Block)
+app27 : Inheritance(is-a relationship)
+app28 : has-a relationship
+app29 : packages 
+app30 : private access specifier

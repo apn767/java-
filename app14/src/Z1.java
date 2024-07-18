@@ -1,0 +1,24 @@
+class Z1
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("main begin");
+		String s1 = "hello";			
+		switch (s1)
+		{
+		case "test" :
+			System.out.println("from case test");
+		    break;
+		case "hello" :
+			System.out.println("from case hello");
+		    break;
+        case "college" :
+			System.out.println("from case college");
+		    break;
+		case "abc" :
+			System.out.println("from case abc");
+		    break;
+		}
+		System.out.println("main end");
+	}
+}

@@ -1,0 +1,27 @@
+class Z
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("main begin");
+
+		int i = 23;
+
+		{
+			i = i + 45;
+			System.out.println("block1 statement1: "+ i++);
+			System.out.println("block1 statement2: "+ i++);
+			System.out.println("block1 statement3: "+ i++);
+		}
+
+		System.out.println("something" + i);
+
+		{
+			i = i + 321;
+			System.out.println("block2 statement1: "+ i++);
+			System.out.println("block2 statement2: "+ i++);
+			System.out.println("block2 statement3: "+ i++);
+		}
+
+		System.out.println("main end:" + i);
+	}
+}	
